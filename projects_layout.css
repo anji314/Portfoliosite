@@ -1,0 +1,21 @@
+
+#projects{
+    column-count: 4;
+    
+}
+#projects figure{
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 10%;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow:  3px 3px 5px rgba(0,0,0,0.5);
+    transition: transform 1s;
+    background-color: white;
+    
+}
+#projects figure:hover{
+    transform: scale(1.1);
+}
+#projects figure img{
+    width: 100%;
+}

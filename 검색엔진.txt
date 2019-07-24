@@ -1,0 +1,90 @@
+페이지랭크(pagerank)알고리즘.-sergey brin,lawrence page
+
+허밍버드알고리즘. :자연어 검색 시대.
+
+
+
+https://terms.naver.com/entry.nhn?docId=3543539&cid=42192&categoryId=58495
+
+
+
+크롤링(crawring)
+
+
+
+
+
+
+
+
+
+header{
+    border-bottom: 1px solid gray;
+    margin-bottom: 2%;
+}
+.menu,header a{
+    text-decoration: none;
+}
+.menu ul{
+    display: flex;
+    padding: 0;
+}
+.menu li{
+    display: inline;  
+    flex-grow: 1;
+    text-align: center;
+}
+
+.myskills li{
+    border: 2px solid skyblue;
+    display: inline;
+}
+
+
+
+
+
+
+
+body{
+    padding-top: 5%
+}
+header{
+    margin-bottom: 2%;
+    display: flex;
+    background-color: white;
+}
+
+header h1{
+    flex-grow:0.8;
+    position: fixed;
+    top: 0;
+    left: 2%;
+}
+header niv{
+    padding: 1%;
+    position: fixed;
+    right: 15%;
+    top: 0;
+}
+
+.menu,header a{
+    text-decoration: none;
+}
+.menu ul{
+    display: flex;
+    padding: 0;
+}
+.menu li{
+    display: inline;  
+    flex-grow: 1;
+    text-align:center;
+    margin: 5%
+   
+}
+
+.myskills li{
+    border: 2px solid skyblue;
+    display: inline;
+}
+
