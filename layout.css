@@ -33,8 +33,14 @@ header niv{
     margin: 5%
    
 }
-
-.myskills li{
+.myskills table{
+    margin: auto;
+}
+.myskills tr{
+    height: 50px;
+}
+.myskills td{
+    margin: 10%;
     border: 2px solid skyblue;
     display: inline;
 }
