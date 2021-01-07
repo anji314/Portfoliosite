@@ -4,74 +4,287 @@
     <title>Jihye's Portfolio</title>
     <meta charset="utf-8">
     <meta name="keyword" content="Portfolio,Jihye,Programmer,career,Web,full-stack,developer,Korea,Korean">
-    <meta name="author" content="Jihye,An">
+    <meta name="author" content="JihyeAn">
     <meta name="description" content="This is the portfolio page of Web-programmer Jihye An">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="layout.css">
-    </head>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+          font-family: 'Noto Sans KR', sans-serif;
+        }
+    </style>
+</head>
+
 <body>
     <header>
-        <H1><a href="index.html">여기에 로고</a> </H1>
-        <niv class="menu">  
-        <ul >
-        <li><a href="skills.html" >Skills</a></li>
-        <li><a href="projects.html" >Projects</a></li>
-        <li><a href="about.html">about</a></li>
-        </ul>
-        </niv>
+        
+        <div class="container mt-5">  
+            <div class="row">
+                <div class="col-3">여기 사진</div>
+                <div class="col-9">
+                    <div><h1>안지혜<small class="text-muted">[Jihye An]</small></h1></div>
+                    <div class="row"><div class="text-right col-1"><i class="fas fa-envelope"></i></div><div>anjihye9526@gmail.com</div></div>
+                    <div class="row"><div class="text-right col-1"><i class="fas fa-phone"></i></div><div>010-xxxx-xxxx</div></div>
+                    <div class="row"><div class="text-right col-1"><i class="fab fa-github"></i></div> <div><a class="text-decoration-none" href="https://github.com/anji314" target="_blank">https://github.com/anji314</a></div></div>
+                    <div class="row"><div class="text-right col-1"><i class="fab fa-blogger"></i></div><div><a class="text-decoration-none" href="https://footprint-of-nawin.tistory.com/" target="_blank">https://footprint-of-nawin.tistory.com</a></div></div>
+                    <div class="float-right">Lastest Updated <span class="badge badge-info">2021.01.10</span></div>
+                </div>
+            </div>
+        
+        </div>
+ 
     </header>
     <main>
-    <article>
-        <div>
-            <H1>Hello, I'm Jihye An.
-            I'm a full-stack web developer. </H1>
+        <div class ="container mt-3">
+            <div class="border-bottom mb-4 pb-2">
+                <h3 class="text-head font-weight-bold pb-2">소개 <small>[INTRODUCE]</small></h3>
+                <div>
+                    <p>
+                        블라 블라<br>
+                        블라블라
+                    </p>
+                    
+                </div>
+                
+            </div>
+            <div class="border-bottom mb-4 pb-2">
+                <h3 class="text-head font-weight-bold pb-2">SKILL</h3>
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">Front-end</dt>
+                    <dd class="col-sm-9">
+                        <div>프론트엔드 언어</div>
+                    </dd>
+                 </dl>
+                 <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">Back-end</dt>
+                    <dd class="col-sm-9">
+                        <div>백엔드 언어</div>
+                    </dd>
+                 </dl>
+                 <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">Database</dt>
+                    <dd class="col-sm-9">
+                        <div>DB언어</div>
+                    </dd>
+                 </dl>
+            </div>
+
+            <div class="border-bottom mb-4 pb-2">
+                <h3 class="text-head font-weight-bold pb-2">경력 <small >[EXPERIENCE]</small></h3>
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2020.07 - 2020.12</dt>
+                    <dd class="col-sm-9">
+                        <div>APEXSOFT 현장 실습 인턴쉽</div>
+                        <div class="text-muted text-body">
+                            어떤 업무를 했지 -> vue.js + spring boot+ JPA + 배포 + 형상관리 통한 si 업무 2개 진행.
+                            <ul>
+                                <li> 기술 스택 | vue.js spring boot JPA GIT </li>
+                                <li> 전기차 대여 웹 페이지 개발 <br> 개발 내용 + git 이슈 이용</li>
+                                <li> 코아전기 도면 관리 웹 프로젝트 개발 <br> 개발 내용 + pdf뷰어, 시간복잡도, 다중 검색</li>
+                            </ul>
+                        </div>
+
+                    </dd>
+                 </dl>
+            </div>
+            <div class="border-bottom  mb-4 pb-2">
+                <h3 class="text-head font-weight-bold pb-2">프로젝트 <small>[PROJECT]</small></h3>
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2021.01 - 진행중</dt>
+                    <dd class="col-sm-9">
+                        <div>개인 프로젝트(제목 미정)</div>
+                        <div class="text-muted text-body">
+                            어떤 걸 만들건지
+                            <ul>
+                                <li> 기술 스택 | vue.js spring boot JPA GIT </li>
+                                <li> 배운점 + 새롭게 적용한 것.</li>
+                            </ul>
+                        </div>
+                    </dd>
+                 </dl>
+                 <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2020.06 - 2020.11</dt>
+                    <dd class="col-sm-9">
+                        <div>뉴트롯트 폰트 페이지</div>
+                        <div class="text-muted text-body">
+                            미대생 졸전 폰트 페이지 만들기
+                            <ul>
+                                <li> 기술 스택 | html css javascript jquery </li>
+                                <li> 배운점 + 새롭게 적용한 것.</li>
+                            </ul>
+                        </div>
+                    </dd>
+                 </dl>
+                 <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2020.03 - 2020.06</dt>
+                    <dd class="col-sm-9">
+                        <div>오늘 어때</div>
+                        <div class="text-muted text-body">
+                            날씨 정보를 활용한 학교 상권 및 지역 연계 데이트 추천 웹 프로젝트
+                            <ul>
+                                <li> 역할 | 프론트+ 뭘 만들었는지 </li>
+                                <li> 기술 스택 | html css javascript vue.js </li>
+                                <li> 배운점 + 새롭게 적용한 것.+ 카카오 API + 날씨 API</li>
+                            </ul>
+                        </div>
+                    </dd>
+                 </dl>
+                 <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2019.08 - 2019.11</dt>
+                    <dd class="col-sm-9">
+                        <div>감성 톡</div>
+                        <div class="text-muted text-body">
+                            싸이월드를 오마주한 채팅 프로그램에 방명록 기능과 일촌 기능을 추가한 미니 프로젝트
+                            <ul>
+                                <li> 역할 | 백엔드 + 뭘 만들었는지 </li>
+                                <li> 기술 스택 | java swing </li>
+                                <li> 배운점 + 새롭게 적용한 것.+ 자바 소켓 개념</li>
+                            </ul>
+                        </div>
+                    </dd>
+                 </dl>
+                 <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2019.08 - 2019.12</dt>
+                    <dd class="col-sm-9">
+                        <div>JUMPER</div>
+                        <div class="text-muted text-body">
+                            오픈 소스 미니게임 점퍼의 리메이크 프로젝트로 시나리오와 게임구성, 물리 법칙, 디자인을 새롭게 구성한 프로젝트
+                            <ul>
+                                <li> 역할 | 백엔드 + 뭘 만들었는지 </li>
+                                <li> 기술 스택 | java android </li>
+                                <li> 배운점 + 새롭게 적용한 것</li>
+                            </ul>
+                        </div>
+                    </dd>
+                 </dl>
+            </div>
+            <div class="border-bottom  mb-4 pb-2">
+                <h3 class="text-head font-weight-bold pb-2">활동 <small >[ACTIVITY]</small></h3>
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2018.07 - 현재</dt>
+                    <dd class="col-sm-9">
+                        <div>ALCUK</div>
+                    </dd>
+                 </dl>
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2020.08 - 2020.11</dt>
+                    <dd class="col-sm-9">
+                        <div>2020 CCPC 출제진 참여</div>
+                    </dd>
+                 </dl>
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2020.09</dt>
+                    <dd class="col-sm-9">
+                        <div>2020 UCPC 본선 진출</div>
+                    </dd>
+                 </dl>
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2020.01 - 2020.12</dt>
+                    <dd class="col-sm-9">
+                        <div>ALCUK 임원진 활동</div>
+                    </dd>
+                 </dl>
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2019.12 - 2020.06</dt>
+                    <dd class="col-sm-9">
+                        <div>SELAB 연구원 활동</div>
+                    </dd>
+                 </dl>
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2019.08 - 2019.11</dt>
+                    <dd class="col-sm-9">
+                        <div>2019 CCPC 검수진 참여</div>
+                    </dd>
+                 </dl>
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2019.01 - 2019.07</dt>
+                    <dd class="col-sm-9">
+                        <div>캐나다 어학연수</div>
+                    </dd>
+                 </dl>
+               
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2017.06 - 2018.06</dt>
+                    <dd class="col-sm-9">
+                        <div>코마</div>
+                    </dd>
+                 </dl>
+                 <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2017.07 - 2017.08</dt>
+                    <dd class="col-sm-9">
+                        <div>오라클 빅데이터 전문가과정 수료</div>
+                    </dd>
+                 </dl>
+            </div>
+            <div class="border-bottom  mb-4 pb-2">
+                <h3 class="text-head font-weight-bold pb-2">학력 <small >[EDUCATION]</small></h3>
+                <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2016.03 - 2021.07<small>(졸업예정)</small></dt>
+                    <dd class="col-sm-9">
+                        <div>가톨릭 대학교(THE CATHOLIC UNIVERSITY OF KOREA)</div>
+                        <div class="text-muted text-body">
+                            [ ICT 공학 계열 ] 컴퓨터 정보 공학부 (Computer Science Information Engineering)
+                            <div class="text-dark row" >                                
+                                <div class=" font-weight-bold col-3">학점 그래프</div> 
+                                <div class=" col-2 text-head font-weight-bold">전공 4.22 / 4.5</div> 
+                                <div class="col-2">전체 3.93 / 4.5</div>                               
+                            </div>
+                            <div>여기에 그래프</div>
+                        </div>
+
+                    </dd>
+                 </dl>
+                 <dl class="row text-list">
+                    <dt class="col-sm-3 text-muted">2012.03 - 2015.02 <small>(졸업)</small></dt>
+                    <dd class="col-sm-9">
+                        <div>이화여자대학교 사범대학 부속 이화금란 고등학교</div>
+                        <div class="text-muted text-body">이공계</div>
+                    </dd>
+                 </dl>
+            </div>
+            <div class="border-bottom mb-4 pb-2">
+                <h3 class="text-head font-weight-bold pb-2">수상 경력 <small/*class="text-muted"*/>[AWARD]</small></h3>
+                <div >
+                    <dl class="row text-list">
+                        <dt class="col-sm-3 text-muted">2020</dt>
+                        <dd class="col-sm-9">
+                            <div>
+                                <div>2020학년도 가톨릭대학교 Programming 경진 대회 <span  class="text-head font-weight-bold">은상</span></div>
+                                <div>2020-1학기 캡스톤디자인 경진대회 자연, 공학, 융합 <span class="text-head font-weight-bold">장려상</span></div>
+                            </div>
+                        </dd>
+                     </dl>
+
+                    <dl class="row text-list">
+                        <dt class="col-sm-3 text-muted">2019</dt>
+                        <dd class="col-sm-9">
+                            <div>22019학년도 가톨릭대학교 Programming 대회 <span class="text-head font-weight-bold">은상</span></div>
+                        </dd>
+                     </dl>
+                    <dl class="row text-list">
+                        <dt class="col-sm-3 text-muted">2018</dt>
+                        <dd class="col-sm-9">
+                            <div>2018년도 컴퓨터정보공학부 프로그래밍 창업경진대회 <span class="text-head font-weight-bold">금상</span></div>
+                        </dd>
+                     </dl>
+
+                </div>
+            </div>
+
         </div>
-        <div>
-            안녕하세요. FULL-Stack Developer 안지혜 입니다.
-            제 Portfolio page 방문을 환영합니다. 자유롭게 둘러보시고 관심히 생기신다면 언제든 연락해주세요.
-            빠르고 깔끔한 코딩과 센스있는 구현에 자신있습니다. 
-        </div>
-    </article>
-        <section class="myskills">   
-            <div>
-                <h3>My skills</h3>
-                <table >
-                    <tr>
-                    <td>HTML5</td>
-                    <td>JavaScript</td>
-                    </tr>
-                    <tr>
-                    <td>Nodejs</td>
-                    <td>JQUary</td>
-                    </tr>
-                </table>
-                <p><a href="skills.html">Want to see more</a></p>
-            </div>
-        </section>
-        <section>
-            <div>
-                <p> 
-                <a href="projects.html">Do you want to see my projects?
-                </a></p>
-            </div>
-        </section>
-        <section>
-            <div>
-                <p>
-                내사진이랑
-                현재 근황
-                </p>
-            </div>
-        </section>
+
     </main>
-    <footer>
-        <h3>Contact</h3>
-        <ul>
-            <li>링크드인</li>
-            <li>E-mail</li>
-            <li>Git</li>
-        </ul>
-    </footer>
+        <footer>
+            여기는 푸터
+        </footer>
     
 </body>
 
